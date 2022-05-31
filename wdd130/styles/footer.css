@@ -1,0 +1,16 @@
+/* Add your additional tags here */
+footer {
+    padding: 1em;
+    text-align: center;
+    color: var(--paragraph-color-on-color);
+    background-color: var(--paragraph-background-color);
+}
+footer > h1, header > h2 {
+    color: var(--headline-color-on-color);
+}
+footer > div {
+    width: 30%;
+    min-width: 200px;
+    vertical-align: text-top;
+    display: inline-block;
+}
